@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            
+        </style>
+        <script src="./dist/pong.js"></script>
+    </head>
+    <body ><div style="text-align: center;">
+        <h1>Pong<br>
+        <div id='score'></div>
+        </h1>
+        <svg width="600" height="600" id='canvas'>
+            
+            <rect class='bounds' x=0 y = "0"  width="600" height="600" />
+            <rect x=0 y = "0" id = "ball" width="10" height="10" style="fill:white" />
+            <!-- <polygon points="80,140 95,150 80,160 95,160 110,150 95,140" style="fill:orange;" /> -->
+            <!-- <polygon points="50,140 65,150 50,160 65,160 80,150 65,140" style="fill:orange;" /> -->
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" id='canvastext' style="stroke-width: 0;fill:white"></text>
+          </svg><br><br>
+               
+            <div class="circle">1</div>  
+            <div class="circle">2</div>  
+            <div class="circle">3</div>
+            <div class="circle">4</div>
+            <div class="circle">5</div>
+            <div class="circle">6</div>
+            <div class="circle">7</div>
+            <div class="circle">8</div>
+            <div class="circle">9</div>
+            <div class="circle">10</div>
+            <br>
+            <h2>Pause: Space | Reset:R | Skip Level:-> | Go back a level: <-</h2>
+        </div>
+
+   
+</html>

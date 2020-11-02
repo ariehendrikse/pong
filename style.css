@@ -1,0 +1,63 @@
+BODY, H2, H3, H4, H5, H6, TH, TD {
+font-family: arial, helvetica, sans-serif;
+background: rgb(41, 41, 36);
+}
+H1 {
+    font-size: 38px;
+    font-family: arial, helvetica, sans-serif;
+    color: white;
+}
+H2 {
+    font-size: 20px;
+    font-family: arial, helvetica, sans-serif;
+    color: white;
+}
+p.highlight {
+    color: red;
+}
+svg {
+    background-color: rgb(41, 41, 36);
+    display: block;
+    margin: auto;
+    stroke-width:3;
+    stroke:white;
+    font-size: 50px;
+}
+.bounds {
+    fill:rgb(41, 41, 36); 
+    stroke-width:3px; 
+    stroke: white;
+    rx: 30px;
+    ry:30px;
+}
+.bot{
+    fill:red; 
+
+}
+rect {
+    rx: 10px;
+    ry:10;
+    fill: darkcyan;
+}
+
+
+svg.player{
+    background-color: solid white;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color:rgb(41, 41, 36);
+    stroke-width: 1px;
+    stroke: solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border: 2px solid white;
+    color: white;
+  }
